@@ -1,0 +1,48 @@
+{
+  "name": "alt-container",
+  "version": "1.0.0",
+  "description": "A flux container for alt",
+  "main": "lib/AltContainer.js",
+  "scripts": {
+    "clean": "rimraf lib && rimraf utils",
+    "build": "babel src --out-dir lib --stage 0",
+    "test": "npm run clean && npm run build && mocha -u exports -R nyan --require ./test/babel test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:altjs/container.git"
+  },
+  "keywords": [
+    "altcontainer",
+    "fluxcomponent",
+    "component",
+    "container",
+    "connect",
+    "stores",
+    "flux",
+    "react"
+  ],
+  "author": "Josh Perez <josh@goatslacker.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altjs/container/issues"
+  },
+  "homepage": "https://github.com/altjs/container",
+  "dependencies": {
+    "object.assign": "4.0.1"
+  },
+  "devDependencies": {
+    "alt": "0.17.4",
+    "alt-utils": "1.0.0",
+    "babel": "5.8.23",
+    "babel-core": "5.8.25",
+    "chai": "3.3.0",
+    "jsdom": "6.5.1",
+    "mocha": "2.3.3",
+    "react": "0.14.0",
+    "react-addons-test-utils": "0.14.0",
+    "react-dom": "0.14.0",
+    "rimraf": "2.4.3",
+    "sinon": "1.17.1"
+  }
+}
