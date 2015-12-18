@@ -4,7 +4,7 @@
  *
  * @see AltContainer
  */
-import React from 'react'
+import React from 'react-native'
 import mixinContainer from './mixinContainer'
 import assign from 'object.assign'
 
