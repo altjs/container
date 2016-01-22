@@ -1,6 +1,6 @@
 {
   "name": "alt-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flux container for alt",
   "main": "lib/AltContainer.js",
   "scripts": {
