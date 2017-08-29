@@ -56,6 +56,7 @@
  * Full docs available at http://goatslacker.github.io/alt/
  */
 import React from 'react'
+import PropTypes from 'prop-types';
 import assign from 'object.assign'
 
 const id = it => it
@@ -116,11 +117,11 @@ const getStateFromStores = (props) => {
 // what about propTypes?
 class AltContainer extends React.Component {
   static contextTypes = {
-    flux: React.PropTypes.object,
+    flux: PropTypes.object,
   }
 
   static childContextTypes = {
-    flux: React.PropTypes.object,
+    flux: PropTypes.object,
   }
 
   getChildContext() {

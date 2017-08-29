@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/altjs/container",
   "dependencies": {
-    "object.assign": "^4.0.1"
+    "object.assign": "^4.0.1",
+    "prop-types": "^15.5.10"
   },
   "devDependencies": {
     "alt": "0.17.4",
