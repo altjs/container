@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import assign from 'object.assign'
+import PropTypes from 'prop-types';
 
 const id = it => it
 
@@ -23,11 +24,11 @@ const mixinContainer = (React) => {
 
   return {
     contextTypes: {
-      flux: React.PropTypes.object
+      flux: PropTypes.object
     },
 
     childContextTypes: {
-      flux: React.PropTypes.object
+      flux: PropTypes.object
     },
 
     getChildContext() {
